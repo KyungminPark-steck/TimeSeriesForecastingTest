@@ -1,7 +1,7 @@
 # 비트코인 가격 예측 및 트레이딩 전략 프로젝트 📈💰
 
-[![Open Lab Notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/juho127/TimeSeriesForecastingTest/blob/main/lab_notebook.ipynb)
 [![Open Assignment in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/juho127/TimeSeriesForecastingTest/blob/main/assignment_notebook.ipynb)
+[![Open Lab Notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/juho127/TimeSeriesForecastingTest/blob/main/lab_notebook.ipynb)
 
 머신러닝을 활용하여 비트코인의 가격 변화 방향을 예측하고, **수익률을 극대화하는 트레이딩 전략**을 개발하는 실습 프로젝트입니다.
 
@@ -104,6 +104,12 @@ from utils import *
 - **목표: Buy and Hold 벤치마크를 초과하는 수익률 달성**
 - 리스크 관리 및 백테스팅
 - 실전 적용 가능성 분석
+
+#### 🆕 assignment_notebook 최근 업데이트
+- **레벨 1️⃣**: threshold와 `position_scaling`만 바꿔가며 예제 전략을 바로 테스트하고 그래프로 비교하는 셀 제공
+- **레벨 2️⃣**: `(prob-0.5)*2` 스케일링 규칙을 적용한 변형 시뮬레이터와 성과 그래프를 바로 실행할 수 있는 셀 배치
+- **레벨 3️⃣**: LSTM 대신 GRU 두 단을 쓰는 `MyTradingModel` 학습/예측/전략 시각화 셀을 레벨 안내 바로 아래 추가
+- **레벨 4️⃣**: 확률 기반 포지션을 RSI(14)와 결합해 리스크를 조정하는 하이브리드 전략 시각화 셀을 제공
 
 ## 🎯 학습 목표
 
